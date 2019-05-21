@@ -1,0 +1,3 @@
+<v-eposide></v-eposide>
+<v-like  bind:like='onLike' count='{{classicData.fav_nums}}' like='{{classicData.like_status==0?false:true}}'></v-like>
+<v-movie img='{{classicData.image}}' content='{{classicData.content}}'></v-movie>

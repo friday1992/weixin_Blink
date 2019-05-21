@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-like":"/component/like/index",
+    "v-movie":"/component/classic/movie/index",
+    "v-eposide": "/component/eposide/eposide"
+  }
+}
