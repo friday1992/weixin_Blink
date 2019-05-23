@@ -1,3 +1,5 @@
-<v-eposide></v-eposide>
-<v-like  bind:like='onLike' count='{{classicData.fav_nums}}' like='{{classicData.like_status==0?false:true}}'></v-like>
+<view  class="header">
+<v-eposide class="episode" index='{{classicData.index}}'></v-eposide>
+<v-like  class="like-container"  bind:like='onLike' count='{{classicData.fav_nums}}' like='{{classicData.like_status==0?false:true}}'></v-like>
+</view>
 <v-movie img='{{classicData.image}}' content='{{classicData.content}}'></v-movie>
